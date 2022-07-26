@@ -1,0 +1,116 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#home{
+	width:100%;
+	height:350px;
+	margin-top: 1%;
+	/* border: 1px solid black; */
+}
+#home2{
+	width:100%;
+	height:350px;
+    /* border: 1px solid black; */
+	margin-top: 8%;
+
+	
+}
+.parent{
+	width:25%;
+	height:60%;
+	float:left;
+	overflow:hidden;
+    margin-left: 40px;
+	/* border: 1px solid black; */
+	background-color:#7e675a;
+
+}
+.parent2{
+	width:25%;
+	height:60%;
+	float:left;
+	overflow:hidden;
+    margin-left: 40px;
+	/* border: 1px solid black; */
+	background-color:#7e675a;
+
+}
+.child{
+	width:100%;
+	height:80%;
+	position:relative;
+	transition:1s;
+	
+}
+img{
+	width:100%;
+	height:100%;
+}
+#img2{
+    height:170px;
+
+}
+.div{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	
+	
+}
+.parent:hover .child{
+	transform:scale(1.2);
+}
+
+
+.parent:hover img{
+    opacity: 0.3;
+}
+.parent2:hover .child{
+	transform:scale(1.2);
+}
+
+
+.parent2:hover img{
+    opacity: 0.3;
+}
+h3{
+	
+	text-align:center;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.parent:hover h5{
+	opacity:1;
+	display: block;
+    margin-top: 5%;
+    width: 10%;
+}
+.topnav {
+	overflow: hidden;
+	background-color:#7e675a;
+	margin: 0;
+	}
+
+	.topnav a {
+	float: left;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	}
+
+	.topnav a:hover {
+	color: #ddd;
+	
+	}
+
+	.topnav a.active {
+	background-color:white;
+	color:black;
+	}
+
